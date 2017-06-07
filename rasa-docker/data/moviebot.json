@@ -1,0 +1,456 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "show me movies by Clint Eastwood",
+        "intent": "moviesOfDirector",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Clint",
+            "entity": "foaf:name"
+          },
+          {
+            "start": 24,
+            "end": 32,
+            "value": "Eastwood",
+            "entity": "foaf:familyName"
+          }
+        ]
+      },
+      {
+        "text": "movies by Mel Gibson",
+        "intent": "moviesOfDirector",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "Mel",
+            "entity": "foaf:name"
+          },
+          {
+            "start": 14,
+            "end": 20,
+            "value": "Gibson",
+            "entity": "foaf:familyName"
+          }
+        ]
+      },
+      {
+        "text": "show me the movies by Quentin Tarantino",
+        "intent": "moviesOfDirector",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "Quentin",
+            "entity": "foaf:name"
+          },
+          {
+            "start": 30,
+            "end": 39,
+            "value": "Tarantino",
+            "entity": "foaf:familyName"
+          }
+        ]
+      },
+      {
+        "text": "movies directed by Martin Scorsese",
+        "intent": "moviesOfDirector",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "Martin",
+            "entity": "foaf:name"
+          },
+          {
+            "start": 26,
+            "end": 34,
+            "value": "Scorsese",
+            "entity": "foaf:familyName"
+          }
+        ]
+      },
+      {
+        "text": "what is the duration of the thin red line?",
+        "intent": "durationOf",
+        "entities": [
+          {
+            "start": 24,
+            "end": 41,
+            "value": "the thin red line",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "How long is pulp fiction?",
+        "intent": "durationOf",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "Pulp Fiction",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "How long is the movie the matrix?",
+        "intent": "durationOf",
+        "entities": [
+          {
+            "start": 22,
+            "end": 32,
+            "value": "the matrix",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "What is inception about?",
+        "intent": "plotOf",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "inception",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "What is the movie inception about?",
+        "intent": "plotOf",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "inception",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "What is the movie the matrix about?",
+        "intent": "plotOf",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "the matrix",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "What is the plot of interstellar?",
+        "intent": "plotOf",
+        "entities": [
+          {
+            "start": 20,
+            "end": 32,
+            "value": "interstellar",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "What is the story about the thin red line?",
+        "intent": "plotOf",
+        "entities": [
+          {
+            "start": 24,
+            "end": 41,
+            "value": "the thin red line",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "list movies of 2016",
+        "intent": "moviesOfYear",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "2016",
+            "entity": "dbpprop:releaseDate"
+          }
+        ]
+      },
+      {
+        "text": "show me the movies of 2016",
+        "intent": "moviesOfYear",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "2016",
+            "entity": "dbpprop:releaseDate"
+          }
+        ]
+      },
+      {
+        "text": "show me movies which came out in 2016",
+        "intent": "moviesOfYear",
+        "entities": [
+          {
+            "start": 33,
+            "end": 37,
+            "value": "2016",
+            "entity": "dbpprop:releaseDate"
+          }
+        ]
+      },
+      {
+        "text": "What is titanic about?",
+        "intent": "plotOf",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "titanic",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "Which movies are directed by Clint Eastwood?",
+        "intent": "moviesOfDirector",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "Clint",
+            "entity": "foaf:name"
+          },
+          {
+            "start": 35,
+            "end": 43,
+            "value": "Eastwood",
+            "entity": "foaf:familyName"
+          }
+        ]
+      },
+      {
+        "text": "What is the duration of the matrix?",
+        "intent": "durationOf",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "the matrix",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "Which films are directed by Clint Eastwood?",
+        "intent": "moviesOfDirector",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "Clint",
+            "entity": "foaf:name"
+          },
+          {
+            "start": 34,
+            "end": 42,
+            "value": "Eastwood",
+            "entity": "foaf:familyName"
+          }
+        ]
+      },
+      {
+        "text": "Which movies have been directed by Clint Eastwood?",
+        "intent": "moviesOfDirector",
+        "entities": [
+          {
+            "start": 35,
+            "end": 40,
+            "value": "Clint",
+            "entity": "foaf:name"
+          },
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Eastwood",
+            "entity": "foaf:familyName"
+          }
+        ]
+      },
+      {
+        "text": "How long does inception last?",
+        "intent": "durationOf",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "inception",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "When did inception come out?",
+        "intent": "releaseDateOf",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "inception",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "When was the thin red line released?",
+        "intent": "releaseDateOf",
+        "entities": [
+          {
+            "start": 9,
+            "end": 26,
+            "value": "the thin red line",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "Show me some horror movies",
+        "intent": "moviesOfGenre",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "horror",
+            "entity": "dbpprop:genre"
+          }
+        ]
+      },
+      {
+        "text": "List me some horror movies",
+        "intent": "moviesOfGenre",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "horror",
+            "entity": "dbpprop:genre"
+          }
+        ]
+      },
+      {
+        "text": "What are some horror movies?",
+        "intent": "moviesOfGenre",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "horror",
+            "entity": "dbpprop:genre"
+          }
+        ]
+      },
+      {
+        "text": "How much money was spent in the making of inception?",
+        "intent": "budgetOf",
+        "entities": [
+          {
+            "start": 42,
+            "end": 50,
+            "value": "inception",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "Who star in inception?",
+        "intent": "starringIn",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "inception",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "Who is starring in the matrix?",
+        "intent": "starringIn",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "the matrix",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "Who starred in the thin red line?",
+        "intent": "starringIn",
+        "entities": [
+          {
+            "start": 15,
+            "end": 32,
+            "value": "the thin red line",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "How much was the budget of the thin red line?",
+        "intent": "budgetOf",
+        "entities": [
+          {
+            "start": 27,
+            "end": 44,
+            "value": "the thin red line",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "show me the trailer of inception",
+        "intent": "trailerOf",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "inception",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "I want to see the trailer of the thin red line",
+        "intent": "trailerOf",
+        "entities": [
+          {
+            "start": 29,
+            "end": 46,
+            "value": "the thin red line",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      },
+      {
+        "text": "In which year did the matrix come out?",
+        "intent": "releaseDateOf",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "the matrix",
+            "entity": "dbp-owl:Film"
+          }
+        ]
+      }
+    ]
+  }
+}

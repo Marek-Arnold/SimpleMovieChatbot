@@ -1,0 +1,13 @@
+secret_key: 'secret key used for Flask session'
+
+rasa:
+    url: 'http://srv-lab-t-788:5000/'
+
+imdb_sparql:
+    url:    'http://srv-lab-t-788:8030/swisstext_chatbot/query'
+
+logserver:
+    hostname:   'localhost'
+    port:       27017
+    db:         'chatlog'
+    collection: 'messages'
